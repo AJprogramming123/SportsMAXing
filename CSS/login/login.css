@@ -1,0 +1,80 @@
+body
+{
+    overflow: hidden;
+    place-items: center;
+    color: black;
+    background: linear-gradient(135deg, #283048, #859398, #1e1e1e);
+    
+}
+
+
+h1{
+    position: absolute;
+    left: 38%;
+    top:10%;
+    width: 200px;
+    height: 100px;
+
+
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            
+    
+    
+}
+
+
+
+h2{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    text-decoration: solid;
+    rotate:-45deg;
+
+    font-size: 50px;
+    color: lightblue;
+}
+
+form
+{
+    position: absolute;
+    border: 5px solid black;
+    width: 700px;
+    height: 700px;
+
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+    left: 26%;
+    top: 10%;
+
+    background-color: lightgrey;
+
+    
+}
+
+input, button
+{
+    margin: 15px;
+
+}
+
+button
+{
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+
+    background-color: lightblue;
+
+}
+
+label
+{
+ font-size: 20px;   
+}
+
