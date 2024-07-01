@@ -11,20 +11,18 @@ body
 
 h1{
     position: absolute;
-    left: 38%;
-    top:10%;
-    width: 200px;
-    height: 100px;
+    left: 42%;
+    border: 5px solid black;
+    width: 190px;
+    height: 60px;
+    font-size: 50px;
 
-
-    display: flex;
-            justify-content: center;
-            align-items: center;
-            
+    background-color: lightgrey;
     
+    top: -2%;
+
     
 }
-
 
 
 h2{
@@ -132,3 +130,14 @@ label
     align-items: center; 
     
 }
+
+.ruleset
+{
+    background-color:lightgrey;
+    border: 5px solid black;
+    width: 500px;
+
+    margin: 50px;
+    
+}
+
