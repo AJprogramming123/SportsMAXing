@@ -185,7 +185,31 @@ section:hover
 }
 
 
+#home
+{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    width: 200px;
+    border: 5px solid black;
 
+        
+
+}
+
+
+
+.home
+{
+    
+    width: 100px;
+    background-color: black;
+    color: white;
+    left: 5%;
+
+
+    
+}
 
 
 
