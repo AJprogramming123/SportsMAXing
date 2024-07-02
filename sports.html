@@ -6,6 +6,7 @@
     <title>sportsMAXing</title>
     <link rel="stylesheet" href="CSS/title.css">
     <script src="JavaScript/loginscreen.js"></script>
+    <script src="JavaScript/popup.js"></script>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
             
             <div id="Settings">
                 <div class="settings-icon"></div>   <!--Setting Icon-->
-                <p>Settings</p>
+                <p>SETTINGS</p>
             </div>
 
             <div id="TOP-right">
@@ -57,11 +58,30 @@
 
         </nav>
 
-
+   
     </header>
-
-
 <!----------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup" id="popup-1">
+    <div class="overlay" onclick="togglePopup()"></div>
+    <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>Contact us</h1>
+        <p>Have questions?<br>
+           account issue?<br>
+           need help with betting?<br>
+           false transaction?<br><br>
+
+           123-456-7890
+        </p>
+    </div>
+</div>
+
+<button ID="Nav_button" onclick="togglePopup()">?</button>
+
+
+
+
+
 
 
         <main>
@@ -74,6 +94,26 @@
 
             </footer>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="JavaScript/loginscreen.js"></script>
+<script src="JavaScript/popup.js"></script>
 <script>
             const fullName = localStorage.getItem('fullName');
             if (fullName) {
