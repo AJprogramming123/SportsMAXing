@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sportsMAXing</title>
+    <link rel="stylesheet" href="CSS/title.css">
+    <script src="JavaScript/loginscreen.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div id="TOP">
+            
+            <div id="Settings">
+                <div class="settings-icon"></div>   <!--Setting Icon-->
+                <p>Settings</p>
+            </div>
+
+            <div id="TOP-right">
+                <p id="name_placement">blah</p>     <!--This would be invisible until logging in-->
+
+                <a href="loginORsignup.html">
+                    <button class="loginORsignup" type="button">Login/Signup</button>   <!--This is the login/signup icon-->
+                </a>
+            </div>
+
+        </div>
+
+        
+
+
+        <div id="middle-TOP">
+
+            <img src=”example.png” alt=”IMAGE GONE WRONG”>  <!--This it the logo-->
+
+            <p>Sports Betting!</p>  <!--This goes below the image-->
+        </div>
+
+
+
+        <nav id="bottom-TOP">   <!--Using Navigation for linking other portions of a webpage-->
+
+            <a href="index.html">
+                <button class="links_B" type="submit">HOME</button>
+            </a>
+
+            <a href="sports.html">
+                <button class="links_B" type="submit">SPORTS</button>
+            </a>
+
+            <a href="promotion.html">
+                <button class="links_B" type="submit">PROMOTION</button>
+            </a>
+
+        </nav>
+
+
+    </header>
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+        <main>
+
+
+        </main>
+
+            <footer>
+
+
+            </footer>
+
+<script>
+            const fullName = localStorage.getItem('fullName');
+            if (fullName) {
+                document.getElementById('name_placement').textContent = fullName;
+                // Clear fullName from localStorage to ensure next login starts fresh
+                localStorage.removeItem('fullName');
+            };
+        
+</script>
+
+</body>
+
+
+</html>
