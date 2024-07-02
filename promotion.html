@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>sportsMAXing</title>
     <link rel="stylesheet" href="CSS/title.css">
-    <script src="JavaScript/loginscreen.js"></script>
-    <script src="JavaScript/popup.js"></script>
+    <link rel="stylesheet" href="CSS/promotion.css">
 </head>
 
 <body>
@@ -37,7 +36,7 @@
 
             <img src="images/ForWebsite.png"  ref="GONE WRONG">                 <!--This is the logo-->
 
-            <p>Sports Betting!</p>  <!--This goes below the image-->
+            <strong><p>Sports Betting!</p></strong> <!--This goes below the image-->
         </div>
 
 
@@ -85,9 +84,43 @@
 
 
         <main>
+            <img id="BET" src="images/betPoster.png"  ref="GONE WRONG" width="700" height="600"> 
+
+            <div id="BET-paragraph">
+                <h3>Bet Now!</h3>
+
+                <p>
+                    <strong>Get Ready for March Madness with Our Exclusive Betting Bonus!<br><br></strong>
+
+                    March Madness is here, and we're ramping up the excitement with a special bonus just for you! Place your bets on the thrilling college basketball tournament and enjoy an exclusive bonus that boosts your potential winnings. 
+                    Whether you're a seasoned bettor or new to the game, this is the perfect opportunity to make the most of your March Madness predictions. 
+                    Don't miss out on the action—sign up now and take advantage of this limited-time offer to enhance your betting experience!
+                </p>
+
+                <a href="loginORsignup.html">
+                    <button type="submit">BET NOW!</button>
+                </a>
+            
+            </div>
+
+
 
 
         </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <footer>
 
@@ -99,31 +132,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="JavaScript/loginscreen.js"></script>
 <script src="JavaScript/popup.js"></script>
-<script>
-            const fullName = localStorage.getItem('fullName');
-            if (fullName) {
-                document.getElementById('name_placement').textContent = fullName;
-                // Clear fullName from localStorage to ensure next login starts fresh
-                localStorage.removeItem('fullName');
-            };
-        
-</script>
-
 </body>
 
 
