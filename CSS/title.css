@@ -89,7 +89,7 @@ body {
 #middle-TOP p {
     position: absolute;
     left: 40%;
-    top: 60%;
+    top: 55%;
 }
 
 #middle-TOP img {
@@ -244,4 +244,23 @@ body {
     font-size: 50px; 
 
     display: underline;
+}
+
+
+#popupscreen
+{
+    cursor: pointer;
+    transition: all 0.3s ease; 
+
+}
+
+
+#popupscreen:hover
+{
+    background-color: lightgrey; 
+
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Adding shadow */
+    transform: scale(1.01); /*This is what changes the size*/
+
 }

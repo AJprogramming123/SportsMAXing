@@ -21,7 +21,7 @@ section
     
     width: 800px;
 
-    cursor: pointer;
+       cursor: pointer;
             transition: all 0.3s ease; 
 }
 
