@@ -1,0 +1,51 @@
+#BET
+{
+    position: relative;
+    margin: 20px;
+    left: 27%;
+    top: 80%;
+}
+
+#BET-paragraph
+{   
+    
+    position: relative;
+        border: 2px solid black;
+
+    width: 1500px;
+    height: 600px;
+    
+    font-size: 30px;
+
+    left: 5%;
+    
+
+}
+
+.button
+{
+    position: relative;
+        left: 40%;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+
+    font-size: 50px;
+    font-family: "Oswald", sans-serif; 
+
+    cursor: pointer;
+            transition: all 0.3s ease; 
+
+    background-color: lightsalmon;
+}
+
+.button:hover
+{
+    background-color: lightblue;
+
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Adding shadow */
+    transform: scale(1.1); /*This is what changes the size*/
+        
+}
+
